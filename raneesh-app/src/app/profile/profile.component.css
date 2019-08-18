@@ -1,0 +1,45 @@
+/* ul{
+    list-style: none;
+    border: solid 1px black;
+    /* padding-bottom: 10px; */
+    /* margin:0;
+    padding:0;
+    
+}
+li{
+    border-bottom: solid 1px black;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+} */ 
+li{
+    cursor:pointer;
+    display: flex;
+
+    
+}
+
+img{
+    align-self: flex-end;
+     flex: 1;
+    height: 50px!important;
+    width: 50px!important;
+}
+.users{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+     flex:3; 
+}
+h2{
+    padding:0;
+    margin:0;
+    padding-bottom:20px;
+}
+.userForm{
+padding-top: 30px;
+}
+.label{
+    text-align: right;
+}
